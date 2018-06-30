@@ -1,8 +1,5 @@
+#include <sys/types.h>
 #include "apue.h"
-#include 
-#ifdef SOLARIS
-#include <sys/mkdev.h>
-#endif
 
 int main(int argc, char *argv[])
 {
